@@ -1,3 +1,52 @@
 body {
     padding-top: 5rem;
 }
+.profile{
+    border-radius: 10px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
+    background-color: green;
+
+}
+.upper{
+    padding-top: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: green;
+    border-radius: 10px;
+    
+    color:white;
+}
+
+.lower{
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+}
+img{
+    padding: 5px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.cards{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 20px;
+    padding: 10px;
+    border:none;
+}
+.card{
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border: none; 
+}
+button{
+    color: white;
+    background-color: rgb(130, 212, 7);
+    border: none; /* Remove the border */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    padding: 10px 20px;
+    width: 200px;
+}

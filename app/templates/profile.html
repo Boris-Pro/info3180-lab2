@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class = "profile">
+<div class = "upper">
+<div class="images">
+    <img src="{{ url_for('static', filename='me.jpg') }}" alt="Profile Picture">
+</div>
+<h1>Boris Morris</h1>
+<p>@bmorris</p>
+<p>Montego Bay, Jamaica</p>
+<p>Joined {{ formatted_date }}.</p>
+<P></P>
+</div>
+<div class = "lower">
+    <p>
+        I am a smart and talented man who loves website design and development.
+        Contact me if you like to work together on a new project.
+    </p>
+    <div class="cards">
+        <div class="card">
+            <p>8</p>
+            <p>Posts</p>
+        </div>
+        <div class="card">
+            <p>100</p>
+            <p>Following</p>
+        </div>
+        <div class="card">
+            <p>250</p>
+            <p>Followers</p>
+        </div>
+
+    </div>
+    <div>
+        <button>Follow</button>
+    </div>
+</div>
+</div>
+{% endblock %}
